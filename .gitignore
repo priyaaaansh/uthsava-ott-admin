@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+.output/
+*/.output/
+.vinxi/
+*/.vinxi/
+build/
+*/build/
+
+# Environment variables & local secrets
+.env
+*.env
+*/.env
+*.local
+.env.local
+.env.*.local
+!*.example
+firebase.json
+*/firebase.json
+
+# Logs
+logs/
+*/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary and cache files
+.tanstack/**
+.nitro/
+.wrangler/
+.dev.vars
+tmp/
+*.tmp
+*.zip
+*.tar.gz
